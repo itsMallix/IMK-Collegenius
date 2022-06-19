@@ -1,0 +1,143 @@
+.navbar {
+    width: auto;
+    height: 70px;
+    background: url(../Css/aset/login/navbar/bgnavbar.png);
+    background-size: cover;
+}
+.navbarlogo{
+    height:fit-content;
+}
+.navbar-brand{
+    color: white;
+}
+.logo {
+    height: 15px;
+} 
+.navbarsrch{
+    width: 75%;
+    border-radius: 30px;
+    background-color: white;
+}
+.searchinput:focus{
+    outline-color: transparent;
+}
+
+.searchinput{
+    width: 95%;
+    border-radius: 30px;
+    position: relative;
+    border-color: transparent;
+}
+.searchbtn img {
+    border-radius: 10px;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+.searchbtn:hover {
+    background-color: #ddd
+}
+.navbarask {
+    border-color: transparent;
+    border-radius: 20;
+}
+.btnask {
+    border-color: transparent;
+    border-radius: 10px;
+}
+.btnask:hover {
+    background-color: rgb(162, 157, 157);
+}
+.body {
+    width: auto;
+    height: auto;
+    background: url(../Css/aset/login/body/bodylogin.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    align-content: center;
+}
+.isibody{
+    width: auto;
+    height: 577px;
+    align-content: center;
+    text-align: center;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 3%;
+}
+.btnlgG:hover{
+    background-color: rgb(109, 151, 181);
+}
+.btnlgG,.btnlgF:focus{
+    outline-color: transparent;
+}
+.btnlgF:hover{
+    background-color: rgb(109, 151, 181);
+}
+.inputlogin{
+    width: 30%;
+    border-radius: 10px;
+    border-top-color: gray;
+    border-bottom-color: gray;
+    border-right-color: gray;
+    border-left-color: gray;
+}
+.inputlogin:focus{
+    outline-color: transparent;
+}
+.btnlgG{
+    font-size: 70%;
+    height: 35px;
+    border-color: black;
+    width: 30%;
+    border-radius: 10px;
+    background-color: white;
+}
+.btnlgF{
+    font-size: 70%;
+    color: white;
+    height: 35px;
+    border: transparent;
+    width: 30%;
+    border-radius: 10px;
+    background-color: rgb(91, 135, 245);
+}
+.btnlgn{
+    height: 35px;
+    border: transparent;
+    width: 30%;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(10, 181, 32);
+}
+.btnlgn:focus{
+    outline-color: transparent;
+}
+.btnlgG img{
+    border-radius: 3px;
+    height: 20px;
+    width: 20px;
+}
+.btnlgF img{
+    border-radius: 3px;
+    background-color: white;
+    height: 20px;
+    width: 20px;
+}
+.forgetpw{
+    width: 30%;
+    text-align: center;
+    margin-left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+.mkacc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+.pp{
+    font-size: 70%;
+}

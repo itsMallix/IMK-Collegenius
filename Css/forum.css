@@ -1,0 +1,203 @@
+.navbar {
+    width: auto;
+    height: 70px;
+    background: url(../Css/aset/login/navbar/bgnavbar.png);
+    background-size: cover;
+}
+.navbarlogo{
+    height:fit-content;
+}
+.navbar-brand{
+    color: white;
+}
+.logo img{
+    height: 15px;
+} 
+.navbarsrch{
+    width: 75%;
+    border-radius: 30px;
+    background-color: white;
+}
+.searchinput:focus{
+    outline-color: transparent;
+}
+
+.searchinput{
+    width: 95%;
+    border-radius: 30px;
+    position: relative;
+    border-color: transparent;
+}
+.searchbtn img {
+    border-radius: 10px;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+.searchbtn:hover {
+    background-color: #ddd
+}
+.navbarask {
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+.btnask {
+    border-color: transparent;
+    border-radius: 100%;
+}
+.btnask:hover {
+    background-color: rgb(162, 157, 157);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body {
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    align-content: center;
+}
+.isibody{
+    width: 100%s;
+    height: 577px;
+    position: relative;
+}
+.rightmenu{
+    float: right;
+    width: 75%; 
+    height: 577px;
+    background-color: white;
+    overflow-x: hidden;
+}
+.leftcontent{
+    color: white;
+    padding-top: 5%;
+    width: 25%;
+    height: 100%;
+    background: url(aset/forum/bgleft.svg);
+    background-size: cover;
+}
+.namaprodi{
+    margin-left: 10%;
+    width: fit-content;
+    height: 5%;
+    border-radius: 10px;
+}
+.prodname{
+    color: white;
+}
+.matkulbtn:hover{
+    background-color: rgb(144, 189, 221);
+}
+.matkulbtn{
+    border-color: transparent;
+    background-color: transparent;
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 90%
+}
+.matkulbtn:focus{
+    border-color: transparent;
+}
+div.scroll {
+    border-radius: 10px;
+    margin-left: 10%;
+    width: 80%;
+    height: 85%;
+    margin-top: 1%;
+    background-color: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:center;
+    font-size: 100%;
+}
+::-webkit-scrollbar {
+    margin-right: 60px;
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: white;
+} 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgb(64, 0, 255); 
+} 
+
+::-webkit-scrollbar-button {
+    border-radius: 10px;
+    background-color: transparent;
+} 
+
+::-webkit-scrollbar-corner {
+    background-color: black;
+} 
+.headerforum{
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 20px;
+    width: 95%;
+    height: 40%;
+    background: url(aset/forum/bghmatkul.svg);
+    background-size: cover;
+}
+.judulmatkul{
+    margin-left: 2%;
+    width: 60%;
+    color: white
+}
+.listforum{
+    border-style: solid;
+    border-color: black;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 20px;
+    width: 95%;
+    height: 30%;
+    background-color: white;
+}
+.containerlist{
+    height: 100%;
+}
+.profile{
+    margin-top: 2%;
+    margin-left: 2%;
+    /* background-color: black; */
+    border-radius: 100%;
+    width: fit-content;
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pertanyaan{
+    margin-left:2%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btnans{
+    margin-right: 10%;
+    float: right;
+    width: 10%;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: rgb(91, 135, 245);
+    color: white;
+    font-size: 100%;
+}
+.btnans:focus{
+    background-color: transparent;
+}
+.btnans:hover{
+    background-color:rgb(144, 189, 221);
+}
+/* .forum{ */
+    /* width: fit-content; */
+    /* margin-left: 50%; */
+/* } */

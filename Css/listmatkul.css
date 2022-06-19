@@ -1,0 +1,200 @@
+.navbar {
+    width: auto;
+    height: 70px;
+    background: url(../Css/aset/login/navbar/bgnavbar.png);
+    background-size: cover;
+}
+.navbarlogo{
+    height:fit-content;
+}
+.logo img{
+    height: 15px;
+} 
+.navbarsrch{
+    width: 75%;
+    border-radius: 30px;
+    background-color: white;
+}
+.searchinput:focus{
+    outline-color: transparent;
+}
+
+.searchinput{
+    width: 95%;
+    border-radius: 30px;
+    position: relative;
+    border-color: transparent;
+}
+.searchbtn img {
+    border-radius: 10px;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+.searchbtn:hover {
+    background-color: #ddd
+}
+.navbarask {
+    border-color: transparent;
+    border-radius: 20;
+}
+.btnask {
+    border-color: transparent;
+    border-radius: 10px;
+}
+.btnask:hover {
+    background-color: rgb(162, 157, 157);
+}
+.body{
+    width: auto;
+    height: auto;
+    background: url(../Css/aset/listmatkul/listmatkulbg\ \(2\).svg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    align-content: center;
+}
+.isibody{
+    padding-top: 1,5%;
+    width: auto;
+    height: 577px;
+}
+aside {
+  width: fit-content;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: left;
+  font-style: italic;
+  /* background-color: lightgray; */
+}
+.teks{
+    height: fit-content;
+    width: auto;
+    padding-top: 0%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 400%;
+}
+.teks2{
+    font-size: 100%;
+    height: fit-content;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menumatkul{
+    height: 50px;
+}
+.menumatkul{
+    padding-top: 0.4%;
+    border-radius: 10px;
+    height: 7%;
+    margin-left: 3%;
+    width: 50%;
+    background: url(../Css/aset/listmatkul/menumatkul2.svg);
+    background-size: cover;
+}
+.matkulsrch{
+    position:relative;
+    border-radius: 5px;
+    margin-left: 3%;
+    width : 60%;
+    background-color: white;
+}
+.matkulsrchform:focus{
+    outline-color: transparent;
+}
+.matkulsrchform{
+    border-radius: 5px;
+    border-color: transparent;
+    width: 60%;
+}
+.msbtn img {
+    border-radius: 10px;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+.matkulslct{
+    padding-bottom: 50px;
+    position:relative;
+    border-radius: 5px;
+    margin-left: 3%;
+    width : 20%;
+    background-color: white;
+    float: right;
+}
+SELECT:focus{
+    outline-color: transparent;
+}
+SELECT{
+    /* background-color: black; */
+    /* padding-top: 50px; */
+    text-align: center;
+    height: 30px;
+    /* padding-top: 6px; */
+    float: right;
+    width:30%;
+    border-color: black;
+    border-radius: 5px;
+}
+div.scroll {
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-top: 1%;
+    margin:4px, 4px;
+    padding:4px;
+    background-color: rgba(128, 128, 128, 0.21);
+    width: 90%;
+    height: 55%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:center;
+}
+.matkulistbtn1:focus{
+    outline-color: transparent;
+}
+.matkulistbtn:focus{
+    outline-color: transparent;
+}
+.matkulistbtn1{
+    background-color: white;
+    margin-top: 3%;
+    width: 40%;
+    height: 13%;
+    border-radius: 10px;
+    border-color: transparent;
+}
+.matkulistbtn{
+    background-color: white;
+    margin-top: 10px;
+    width: 40%;
+    height: 13%;
+    border-radius: 10px;
+    border-color: transparent;
+}
+::-webkit-scrollbar {
+    margin-right: 60px;
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: white;
+} /* the new scrollbar will have a flat appearance with the set background color */
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgb(64, 0, 255); 
+} /* this will style the thumb, ignoring the track */
+
+::-webkit-scrollbar-button {
+    border-radius: 10px;
+    background-color: rgb(254, 141, 250);
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+
+::-webkit-scrollbar-corner {
+    background-color: black;
+} /*
